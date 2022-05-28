@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.more .more-inf {
+.more__link {
   font-family: fantasy, cursive;
 }
 
@@ -28,7 +28,7 @@ body {
   
 }
 
-.main-container {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -44,7 +44,7 @@ body {
   width: 226px;
 }
 
-.input-wrapper {
+.add__input {
   display: flex;
   margin: 20px 0 0;
 }
@@ -65,7 +65,7 @@ button {
 
 .delete,
 .edit,
-.add {
+.add__button {
   background: none;
   border: 0px;
   color: #888;
@@ -82,7 +82,8 @@ button {
 }
 
 /* Heading */
-.subtitle {
+.add__subtitle,
+.incomplete__subtitle {
   color: #333;
   font-weight: 700;
   font-size: 15px;
