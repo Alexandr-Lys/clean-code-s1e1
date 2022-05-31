@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.more img {
+.more__img {
   width: 100%;
 }
 
@@ -124,12 +124,12 @@ button {
   align-items: center;
 }
 
-.incomplete-item>input[type="checkbox"],
-.completed-item>input[type="checkbox"] {
+.incomplete-item__edit,
+.completed-item__edit {
   margin: 0 10px;
 }
 
-.delete img {
+.button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
