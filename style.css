@@ -151,13 +151,13 @@ button {
 }
 
 /* Edit Task */
-#incomplete-tasks .task[type=text],
-#completed-tasks .task[type=text] {
+#incomplete-tasks .task[type="text"],
+#completed-tasks .task[type="text"] {
   display: none;
 }
 
-#incomplete-tasks .edit-mode .task[type=text] ,
-#completed-tasks .edit-mode .task[type=text] {
+#incomplete-tasks .edit-mode .task[type="text"] ,
+#completed-tasks .edit-mode .task[type="text"] {
   display: inline-block;
   width: 224px;
 }
