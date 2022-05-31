@@ -73,7 +73,7 @@ button {
   cursor: pointer;
 }
 
-.button:hover {
+.button__img:hover {
   color: #3a3a3a;
 }
 
@@ -135,7 +135,7 @@ button {
   transition: transform 200ms ease-in;
 }
 
-.delete :hover {
+.button_rotate :hover {
   transform: rotateZ(0);
 }
 
