@@ -108,7 +108,7 @@ button {
 
 /* New Task */
 
-#new-task {
+.add__input {
   width: 318px;
 }
 
@@ -140,24 +140,24 @@ button {
 }
 
 /* Completed */
-#completed-tasks .task {
+.completed-list .task {
   text-decoration: line-through; 
   color: #888;
 }
 
 /* Edit Task */
-#incomplete-tasks .task[type="text"],
-#completed-tasks .task[type="text"] {
+.incomplete-list .task[type="text"],
+.completed-list .task[type="text"] {
   display: none;
 }
 
-#incomplete-tasks .edit-mode .task[type="text"] ,
-#completed-tasks .edit-mode .task[type="text"] {
+.incomplete-list .edit-mode .task[type="text"] ,
+.completed-list .edit-mode .task[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-#incomplete-tasks .edit-mode .task,
-#completed-tasks .edit-mode .task {
+.incomplete-list .edit-mode .task,
+.completed-list .edit-mode .task {
   display: none;
 }
