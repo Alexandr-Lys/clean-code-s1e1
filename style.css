@@ -135,7 +135,7 @@ button {
   transition: transform 200ms ease-in;
 }
 
-.button_rotate :hover {
+.button_js-type_delete :hover {
   transform: rotateZ(0);
 }
 
@@ -144,6 +144,9 @@ button {
   text-decoration: line-through; 
   color: #888;
 }
+.completed-list .completed-item_edit-mode .task {
+  text-decoration: none; 
+}
 
 /* Edit Task */
 .incomplete-list .task[type="text"],
@@ -151,13 +154,13 @@ button {
   display: none;
 }
 
-.incomplete-list .edit-mode .task[type="text"] ,
-.completed-list .edit-mode .task[type="text"] {
+.incomplete-list .incomplete-item_edit-mode .task[type="text"] ,
+.completed-list .completed-item_edit-mode .task[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.incomplete-list .edit-mode .task,
-.completed-list .edit-mode .task {
+.incomplete-list .incomplete-item_edit-mode .task,
+.completed-list .completed-item_edit-mode .task {
   display: none;
 }
